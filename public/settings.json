@@ -1,0 +1,49 @@
+{
+  "tagline": "Cepat, bersih, wangi — layanan laundry profesional untuk Anda.",
+
+  "kontak": {
+    "whatsapp": "6281234567890",
+    "telegram": "@laundry_rizki",
+    "alamat": "Jl. Nakula Raya No.60A, RT.01/RW02, Pendrikan Kidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50131",
+    "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4847.164554752266!2d110.4074783!3d-6.9813728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b65a321385d%3A0x4104880f566102b3!2sRIZKY%20LAUNDRY!5e1!3m2!1sid!2sid!4v1765190322109!5m2!1sid!2sid",
+    "googleMapsLink": "https://maps.app.goo.gl/NpvLbP3hZPKQLjCx6"
+  },
+
+  "galeri": [
+  "/images/toko1.jpg",
+  "/images/toko2.jpg",
+  "/images/toko3.jpg"
+  ],
+
+  "operasional": {
+    "hari": "Setiap hari",
+    "jam": "09.00 – 17.00"
+  },
+
+  "tentang": {
+    "paragraf1": "Laundry Rizki merupakan layanan laundry profesional..."
+  },
+
+  "layanan": [
+    {
+      "nama": "Laundry Kiloan",
+      "desc": "Pakaian bersih, wangi, dan rapi.",
+      "harga": "7000/kg"
+    },
+    {
+      "nama": "Setrika",
+      "desc": "Setrika rapi dan licin.",
+      "harga": "4000/kg"
+    },
+    {
+      "nama": "Express",
+      "desc": "Selesai 3–6 jam.",
+      "harga": "Tambah 5000/kg"
+    },
+    {
+      "nama": "Laundry Sepatu",
+      "desc": "Deep cleaning sepatu.",
+      "harga": "20000/pasang"
+    }
+  ]
+}

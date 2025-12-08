@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahan styling global opsional */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif; /* opsional */
+  background-color: #0E1B22; /* Sesuai tema gelap Laundry Rizki */
+}
+html {
+  scroll-behavior: smooth;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInUp 0.35s ease;
+}
+
+@keyframes verticalSlider {
+  0%   { transform: translateY(0); }
+  15%  { transform: translateY(0); }
+
+  20%  { transform: translateY(-60px); }
+  35%  { transform: translateY(-60px); }
+
+  40%  { transform: translateY(-120px); }
+  55%  { transform: translateY(-120px); }
+
+  60%  { transform: translateY(-180px); }
+  75%  { transform: translateY(-180px); }
+
+  80%  { transform: translateY(-240px); }
+  95%  { transform: translateY(-240px); }
+
+  100% { transform: translateY(0); }
+}
+
+.animate-verticalSlider {
+  animation: verticalSlider 9s infinite cubic-bezier(0.55, 0.08, 0.25, 1);
+}
+
