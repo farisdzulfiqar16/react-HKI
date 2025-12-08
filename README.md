@@ -1,16 +1,106 @@
-# React + Vite
+# Sistem Informasi Laundry Rizki (React Demo)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dokumen ini menjelaskan versi **React murni** dari Sistem Informasi Laundry Rizki,
+siap untuk demo dan publikasi akademik. Backend CI4 bersifat **opsional** untuk
+versi produksi atau integrasi lebih lanjut.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1. Pendahuluan
+Website ini dibuat menggunakan **ReactJS + Vite** untuk memberikan UI/UX interaktif
+dan responsif. Semua data bersifat **mock JSON**, sehingga tidak memerlukan
+backend untuk demo awal.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 2. Tujuan
+- Menyediakan demo website interaktif tanpa setup backend.  
+- Memudahkan tim Etika Profesi melihat UI/UX langsung.  
+- Menyediakan dasar integrasi backend CI4 untuk versi produksi.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 3. Teknologi
+- **ReactJS + Vite** → UI/UX interaktif  
+- **JSON (Mock Data)** → Data dinamis untuk demo  
+- **Opsional: CI4** → Backend untuk produksi  
+
+---
+
+## 4. Struktur Proyek
+Laundry-React/
+	public/
+		img/
+	settings.json 
+	src/
+		components/
+			pages/ 
+		hooks/
+		pages/
+index.html
+App.jsx
+vite.config.js
+
+
+> Versi CI4 menambahkan folder `app/` dan `public/assets/` dari hasil build React.
+
+---
+
+## 5. Instalasi & Menjalankan
+1. Clone repository:
+bash
+git clone https://github.com/<username>/Laundry-React.git
+cd Laundry-React
+
+Install dependensi:
+  
+  bash
+  Salin kode
+  npm install
+
+Jalankan dev server React:
+
+  bash
+  Salin kode
+  npm run dev
+  
+Buka browser:
+  arduino
+  Salin kode
+  http://localhost:5173
+  Website berjalan penuh menggunakan React tanpa backend. Semua data berasal dari public/settings.json.
+
+Contoh Data (public/settings.json)
+{
+  "namaLaundry": "Laundry Rizki",
+  "tagline": "Cepat, bersih, wangi — layanan laundry profesional untuk Anda.",
+  "kontak": {
+    "whatsapp": "6281234567890",
+    "telegram": "@laundry_rizki"
+  },
+  "layanan": [
+    { "nama": "Cuci Kering", "harga": "Rp15.000" },
+    { "nama": "Setrika Saja", "harga": "Rp10.000" }
+  ]
+}
+
+Opsional Integrasi CI4
+Untuk versi produksi:
+Build React:
+npm run build
+  Pindahkan folder dist/ ke:
+  CI4/public/
+  CI4 akan melayani index.html dan assets React.
+API CI4 dapat digunakan untuk data dinamis lebih lanjut.
+
+8. Keunggulan
+Standalone → Bisa dijalankan hanya dengan React.
+Editable → Data dapat diubah via JSON.
+Siap demo/publikasi → Tim Etika Profesi langsung bisa jalankan.
+Fleksibel → Mudah dikembangkan ke CI4 untuk produksi atau HKI.
+
+9. Penyusun
+Nama: Faris Dzulfiqar dan tim Etika Profesi
+Program Studi: Teknik Informatika
+Proyek: Sistem Informasi Laundry Rizki
+Tahun: 2025
