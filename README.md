@@ -136,7 +136,10 @@ Pendekatan ini memudahkan tim melihat UI/UX tanpa setup backend kompleks.
 
 ## 10. Informasi Penyusun
 
-# Nama: Faris Dzulfiqar dan tim Etika Profesi
-# Program Studi: Teknik Informatika
-# Proyek: Sistem Informasi Laundry Rizki
-# Tahun: 2025
+**Nama: Faris Dzulfiqar dan tim Etika Profesi**
+
+**Program Studi: Teknik Informatika**
+
+**Proyek: Sistem Informasi Laundry Rizki**
+
+**Tahun: 2025**
